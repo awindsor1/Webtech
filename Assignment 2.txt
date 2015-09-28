@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	    <title>CS07 InClass</title>
+        <link rel="stylesheet" type="text/css" href="CS07-InClass.css" />
+        <style type="text/css">
+        td#image {width:70%}
+        td#width {width:30%}
+        td#caption {width:70%}
+        .special {width: 35%}
+        body {background-image: url(Images/elephant.gif)}
+        hr {background-color:green; height:5px;}
+        
+        
+        </style>
+        
+    </head>
+
+    <body>
+<h2> Exclusive Gifts for All Occasions </h2>
+	    <table>
+<tr> 
+<th colspan="4">This is an exclusive vase from the Ming Dynasty. <br/> It is available in two sizes, with and without gold plating. </th>
+</tr>
+<tr> <td> Picture </td> <td> Size </td> <td> Plating </td> <td> Price </td> </tr>
+<tr>
+<td rowspan="4"> <img src="Images/ming.jpg"> </td>
+<td rowspan="2"> Small </td>
+<td> Without Plating </td>
+<td> $65.00 </td>
+</tr>
+<tr> 
+<td> With Gold Plating </td>
+<td> $ 165.00 </td>
+</tr>
+
+</table>
+
+
+<p> <a href="low.htm"> Click Here </a> to connect to my list of work </p>
+
+    </body>
+</html>
