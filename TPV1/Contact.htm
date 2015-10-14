@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All About Stuart, Florida </title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+ form {background-color: silver; color: navy; font-family: Arial;margin-left: 100px; margin-right: 100px; margin-top:50px; margin-bottom: 50px; padding-top: 20px; padding-bottom: 20px; padding-right: 50px; padding-left: 100px;}
+</style>
+<body>
+ <p> <a href="index.htm"> Home Page</a> <a href="History.htm"> History</a> <a href="Dining.htm"> Dining</a> <a href="Attractions.htm"> Attractions</a> <a href="rentalhotel.htm">Rentals and Hotels</a> <a href="Contact.htm">Contact</a> <a href="sitemap.htm">Site Map </a>	
+	
+<h1> Contact </h1>
+<hr/>
+<p> Want to know more about Stuart, Florida? Want to give a review of my site? Fill out the form below to contact me! </p>	
+	
+	
+
+       <form method="post" action="mailer.php"> 
+<p> Last Name:
+<input type= "text" name="lname" maxlength="100" size="20" /> First Name: <input type= "text" name="fname" maxlength="100" size="20"/></p>
+
+<p>Gender: 
+Male <input type="radio" name="gender" value="male" /> 
+Female <input type="radio" name="gender" value="female" /></p>
+
+<p>Does this site meet your expectations? 
+<select name="Review">
+	<option value="Exceeds">Exceeds Expecations</option>
+	<option value="Marginally Meets">Marginally Meets Expectations</option>
+	<option value="Indifferent">Indifferent</option>
+    <option value="Marginally No">Marginally Does Not Meet Expectations</option>
+	<option value="No">Does Not Meet Expectations </option>
+</select></p>
+<p>Please add comments you have.<br/><br/>
+<textarea name="comments" rows="5" cols="29"></textarea></p>
+
+<p> <button type="submit" name="submit" value="submit">
+	SUBMIT <img src="Images/mailbox.png"  height="30" alt="submit_button" />
+</button> <button type="reset" name="Clear" value="Clear">
+	CLEAR <img src="Images/reset.png"  height="30" alt="reset_button" />
+</button></p>
+
+
+</form>
+	
+</body>
+</html>

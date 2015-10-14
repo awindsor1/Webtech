@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Javascript demo</title>
+		<script>
+			function changeColor(){
+				var a=document.getElementById("firstHeading");
+				a.style.color="red";
+				a.style.fontSize="1em";
+			}
+			function changeColor2(){
+				var b =document.getElementById("firstParagraph");
+				b.style.color="navy";}
+			
+			function displayTime(){
+				var jay=document.getElementById("firstParagraph");
+				jay.innerHTML=Date(); 
+				
+			}
+				
+			
+				
+			
+			
+			
+		</script>
+	</head>
+	<body>
+		<h1 id="firstHeading" onclick="changeColor()"> My first heading (Click me please!) </h1>
+		<p id="firstParagraph" onclick="changeColor2()"> This is the first paragraph.</p>
+		<button id="button1" onclick="displayTime()"> Click me to see current time </button>
+		
+	
+	
+	</body>
+	
+	</html>	

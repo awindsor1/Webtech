@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	    <title>Homework 3</title>
+        <style type="text/css">
+     body{background-color:black;}
+        h1 {color:white; text-align:center; font-family: Lucida Bright; font-size: 3em; margin-bottom:30px}
+	  table {background-color: silver; text-align: center; width: fixed; border: black 2px solid; margin:auto; table-layout:fixed}  
+       td {border:2px solid black; }
+        .left {text-align: left }
+        .radio{width:100%}
+  
+   #textarea{width: 5%; height: 20px; background-color:yellow}
+   #text{width:99%; margin-top:10px; margin-bottom:10px; background-color:yellow }
+   #info{text-align:center; background-color:white}
+   #first{ width:70%;}
+   #second{ width:70%}
+   .class{height:50px}
+  #oops{background-color:red}
+  #bottom{
+    background-image: url('Images/beaver.jpg');
+    background-repeat:repeat;
+    
+    background-position: top;
+    height:100%; margin-top:20px; width:100% 
+} 
+
+   
+        </style>
+        
+    </head>
+
+    <body>
+	    <!-- Your HTML goes here -->
+ 
+<h1 id="title"> Soap Survey </h1>
+<table>
+  <form>
+    <form method="post" action="mailer.php"> 
+<tr id="header"> 
+    <td> Soap Image </td> 
+    <td> Soap Color<br/> Preference </td> 
+    <td> Soap Purchase <br/> Intent </td> 
+    <td> Soap Features Liked </td> 
+</tr>
+<tr class="width">
+     <td> <img id="first" src="Images/mysoresandalsoap.jpg"> </td>
+      <td class="left" class="radio"> <input type="radio" name="color" value="Green"/> Green <br/>
+          <input type="radio" name="color" value="gold" />Gold (shown) <br/>
+          <input type="radio" name="color" value="red" />Red   </td>
+     <td> At $5.00/unit <br/> 
+     <select name="Definitely Buy">
+	<option value="5">Definitely Buy</option><br/>
+	<option value="4">Likely Buy</option><br/>
+	<option value="3">Undecided</option><br/>
+  	<option value="2">Unlikely Buy</option><br/>
+	<option value="1">Not Buy</option><br/>
+  </select> </td>
+  <td class="left"><input  type="checkbox" name="Q1" value="Shape" /> Shape<br />
+<input  type="checkbox" name="Q1" value="Size" /> Size <br />
+<input  type="checkbox" name="Q1" value="Smell" /> Smell <br/>
+<input  type="checkbox" name="Q1" value="Texture" /> Texture <br /></td>
+</tr>
+<tr class="width">
+    <td> <img id="second" src="Images/pearssoap.jpg"> </td>
+     <td class="left" class="radio"><input type="radio" name="color2" value="Ivory"/> Ivory<br/>
+          <input type="radio" name="color2" value="Sandal Wood" />Sandal Wood (shown)<br/>
+         <input type="radio" name="color2" value="Pink" />Pink   </td>
+     <td> At $8.00/unit <br/> 
+         <select name="Definitely Buy">
+	<option value="5">Definitely Buy</option><br/>
+	<option value="4">Likely Buy</option><br/>
+	<option value="3">Undecided</option><br/>
+  	<option value="2">Unlikely Buy</option><br/>
+	<option value="1">Not Buy</option><br/>
+  </select> </td>
+  <td class="left"><input  type="checkbox" name="Q1" value="Shape" /> Shape<br />
+<input  type="checkbox" name="Q1" value="Size" /> Size <br />
+<input  type="checkbox" name="Q1" value="Smell" /> Smell <br/>
+<input  type="checkbox" name="Q1" value="Texture" /> Texture <br /></td>
+</tr>
+<tr>
+    <td id="info" colspan="4"> Tell us about yourself... </td> 
+</tr>  
+<tr>
+    <td> Gender:  <select name="Male">
+	<option value="0">Male</option><br/>
+	<option value="1">Female</option> </td>
+    <td colspan="3"> Age: (under 25 enter 1, 25-40 enter 2, else enter 3) <textarea id="textarea" maxlength="3"></textarea></td> 
+</tr>
+<tr>
+    <td colspan="2"> Your comments are welcome: <br/>
+    <textarea id="text" rows="3" cols="2"></textarea></td>
+    <td colspan="2"><button type="submit" name="Done" value="Submit">
+	Done
+</button> <button id="oops" type="reset" name="Oops" value="Reset">
+	Oops  </button> </td></tr>
+
+</table>
+</form>
+<div id=bottom>
+<br/>
+<br/>
+<br/>
+
+</div>
+
+ </body>
+ 
+ </html>
